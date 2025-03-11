@@ -1,0 +1,23 @@
+/* reset css */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+	font-size: 16px;
+	--primary-color: #441752;
+	--secondary-color: #8174a0;
+	--third-color: #a888b5;
+	--fourth-color: #efb6c8;
+	--black-color: #131313;
+	--grey-color: #7e7e7e;
+	--body-color: #f7f7f7;
+	--text-color: #333;
+	--title-font: "Rochester", serif;
+	--courant-font: "Montserrat", serif;
+	--box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+body {
+	background-color: var(--body-color);
+}
